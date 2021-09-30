@@ -18,6 +18,7 @@ jobs:
         with:
           check-name: build
           running-workflow-name: 'CI'
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           
   # This workflow contains a single job called "build"
   build:
